@@ -7,11 +7,13 @@
     <item
         android:id="@+id/bmi"
         android:orderInCategory="100"
+        android:textStyle="bold"
         android:title="Home"
         app:showAsAction="never" />
     <item
         android:id="@+id/profile"
         android:orderInCategory="100"
+        android:textStyle="bold"
         android:title="Profile"
         app:showAsAction="never" />
 </menu>

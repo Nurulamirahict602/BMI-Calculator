@@ -100,8 +100,9 @@
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:text="Copyright@2021 AMIRAH@SYAFIQA All rights reserved."
+        android:textStyle="bold"
         android:textAlignment="center"
         android:textColor="#060606"
-        android:textSize="15dp" />
+        android:textSize="13dp" />
 </LinearLayout>
 
