@@ -1,0 +1,4 @@
+<resources>
+       <string
+           name="messageWithLink"><a href="https://github.com/Nor348303/Calculator.git">GitHub Page</a></string>
+</resources>

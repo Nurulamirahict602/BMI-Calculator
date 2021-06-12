@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity = "center"
+    android:orientation="vertical"
+    android:background="#C8F9E1"
+    tools:context=".MainActivity">
+
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="BMI Calculator"
+    android:textSize="45sp"
+    android:textColor="#060606"
+    android:layout_marginBottom="20dp"
+    android:textStyle="bold"></TextView>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginBottom="20dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textSize="30sp"
+        android:textColor="#060606"
+        ></TextView>
+
+        <EditText
+            android:id="@+id/edweg"
+            android:layout_width="95dp"
+            android:layout_height="55dp"
+            android:inputType="numberDecimal"
+            android:background="#ffff"
+            android:gravity="center"
+            android:hint="KG"
+            android:layout_marginLeft="80dp"
+            android:textSize="25sp"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:textSize="30sp"
+            android:textColor="#060606"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/edhei"
+            android:layout_width="94dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="80dp"
+            android:background="#ffff"
+            android:gravity="center"
+            android:hint="CM"
+            android:inputType="numberDecimal"
+            android:textSize="25sp"></EditText>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnres"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="RESULT"
+        android:textSize="25sp"
+        android:backgroundTint="@color/button_background_color"
+        android:textStyle="bold">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/txtinter"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="#060606"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Copyright@2021 AMIRAH@SYAFIQA All rights reserved."
+        android:textAlignment="center"
+        android:textColor="#060606"
+        android:textSize="15dp" />
+</LinearLayout>
+
