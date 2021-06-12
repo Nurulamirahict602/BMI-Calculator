@@ -1,4 +1,5 @@
 <resources>
        <string
-           name="messageWithLink"><a href="https://github.com/Nor348303/Calculator.git">GitHub Page</a></string>
+           name="messageWithLink"><a href="https://github.com/Nurulamirahict602/BMI-Calculator.git">GITHUB PAGE</a></string>
+       <string name="app_name">BMI CALCULATOR</string>
 </resources>
