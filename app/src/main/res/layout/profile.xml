@@ -80,11 +80,11 @@
             android:layout_marginTop="10dp"
             android:textAlignment="center" />
 
-        <Button
-            android:id="@+id/btn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:text="GO TO BMI CALCULATOR" />
+<!--        <Button-->
+<!--            android:id="@+id/btn"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textAlignment="center"-->
+<!--            android:text="GO TO BMI CALCULATOR" />-->
     </LinearLayout>
 </ScrollView>
